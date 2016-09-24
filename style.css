@@ -1,0 +1,299 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	height:100%;
+	width: 100%;
+}
+body
+{
+	background: #200;
+	height: 100%;
+	width: 100%;
+}
+a
+{
+	color: #200;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #f40;
+}
+.page
+{
+	width: 1200px;
+	height: 100%;
+	background: #dbb;
+	margin: 0 auto;
+}
+.header
+{
+	width: 100%;
+	height: 40px;
+	border-bottom: 10px solid #200;
+	border-top: 10px solid #200;
+	background: #200;
+}
+.title
+{
+	float: left;
+	width: 1130px;
+	height: 100%;
+	background: #dbb;
+	font-size: 32px;
+	text-align: center;
+}
+.add
+{
+	text-align: center;
+	font-size: 32px;
+	float: right;
+	width: 60px;
+	height: 100%;
+	background: #dbb;
+}
+.p_header
+{
+	width: 100%;
+	height: 40px;
+	border-bottom: 10px solid #200;
+	background: #200;
+}
+.p_header .name
+{
+	display: inline-block;
+	width: 900px;
+	height: 100%;
+	background: #dbb;
+	font-size: 32px;
+	padding-left: 20px;
+}
+.p_header .set
+{
+	display: inline-block;
+	width: 160px;
+	height: 100%;
+	background: #dbb;
+	font-size: 32px;
+	margin-left: 10px;
+	text-align: center;
+}
+.p_header .exit
+{
+	float: right;
+	width: 100px;
+	height: 100%;
+	background: #dbb;
+	font-size: 32px;
+	margin-left: 10px;
+	text-align: center;
+}
+input.logout
+{
+	cursor: pointer;
+	border: 0px;
+	float: right;
+	font-size: 24px;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	background: #dbb;
+}
+input.logout:hover
+{
+	color: #f40;
+}
+.content
+{
+	background: #dbb;
+}
+.folder
+{
+	width: 23%;
+	display: inline-block;
+	position: relative;
+	margin: 1%;
+	color: #fff;
+}
+.folder:hover
+{
+	color: #f40;
+}
+.folder img
+{
+	width: 100%;
+}
+.folder span
+{
+	display: block;
+    position: absolute;
+    bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+	background-color:rgba(0,0,0,.8);
+    padding: 10px 30px;
+}
+.info
+{
+	width: 98%;
+	height: 20px;
+	border-bottom: 10px solid #200;
+	padding: 1%;
+	font-size: 22px;
+}
+.name_class
+{
+	width: 60%;
+	height: 100%;
+	float:left;
+}
+.teacher
+{
+	width: 40%;
+	height: 100%;
+	float:right;
+	text-align: right;
+}
+::-webkit-input-placeholder
+{
+	color:#fcc;
+	text-align: center;
+}
+::-moz-placeholder
+{
+	color:#fcc;
+	text-align: center;
+}
+:-moz-placeholder
+{
+	color:#fcc;
+	text-align: center;
+}
+:-ms-input-placeholder
+{
+	color:#fcc;
+	text-align: center;
+}
+.login
+{
+	text-align: center;
+}
+.login h1
+{
+	padding-top: 25%;
+	font-size: 60px;
+	text-align: center;
+	color: #000;
+}
+.login input
+{
+	text-align: center;
+	background: #faa;
+	border: 2px solid #200;
+	color: #200;
+	font-family: Segoe UI;
+	font-size: 24px;
+	margin-top: 24px;
+	padding: 4px 0 8px 0;
+	text-decoration: none;
+	width: 25%;
+}
+input.sub
+{
+	cursor: pointer;
+	margin-top: 4px;
+	width: 51%;
+}
+input.sub:hover
+{
+	color: #f00;
+}
+select.spisok
+{
+	text-align: center;
+	background: #faa;
+	border: 2px solid #200;
+	color: #200;
+	font-family: Segoe UI;
+	font-size: 24px;
+	margin-top: 4px;
+	padding: 4px 0 8px 0;
+	text-decoration: none;
+	width: 51%;
+}
+
+.fileform
+{
+    background: #faa;
+    border: 2px solid #200;
+	position: relative;
+	margin: 24px auto 0;
+    height: 36px;
+	padding: 4px 0 8px 0;
+    width: 50.6%;
+}
+ 
+.fileform .selectbutton
+{
+    background-color: #f00;
+    border: 2px solid #200;
+	border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    height: 90%;
+    text-align: center;
+    width: 168px;
+	margin-left: 4px;
+	padding: 4px 4px 0 4px;
+}
+ 
+.fileform #upload
+{
+	background: rgba(0, 0, 0, 0);
+	cursor: pointer;
+    position: absolute; 
+	overflow:hidden;
+    top: -26px;
+    left: -2px; 
+    width: 100%;
+    font-size: 24px;
+    height: 32px;
+	text-indent: -200px;
+	padding-top: 8px;
+}
+#name_mat
+{
+	width: 50.6%;
+	margin-top: 4px;
+}
+.mess
+{
+	background: #faa;
+    border: 2px solid #200;
+	margin: 24px auto 0;
+	padding: 4px 0 8px 0;
+    width: 50.6%;
+}
+.index
+{
+	display: block;
+	width: 40%;
+	background: #f00;
+    border: 2px solid #200;
+	border-radius: 8px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+	padding: 4px;
+	margin: 0 auto;
+	position: relative;
+	top: 24px;
+}
+.index:hover
+{
+	color: #200;
+}
