@@ -26,7 +26,7 @@
 			<div class = "p_header">
 				<div class = "name">
 					<?php
-						printf('Здравствуйте, %s!',
+						printf('Здравствуй, %s!',
 								$_COOKIE['name']);
 					?></div><!--
 					--><a href = "#" class = "set">Настройки</a><!--
